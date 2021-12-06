@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <title>Fate Interactive Editor</title>
+    <link rel="stylesheet" type="text/css" href="style_fie_ben.css">
+</head>
+<body>
+    <div id="title" class="top container">
+        <h1>Fate Interactive Editor</h1>
+        <p>created by Ben Hartley</p>
+    </div>
+    <div id="dieRoller" class="mid container">
+        <h1>FATE Dice</h1>
+        <p>created by Matteo Colucci</p>
+        <iframe src="https://matita.github.io/fatedice/" title="FATE dice" style="width:100%;height:400px;" frameborder="1"></iframe>
+    </div>
+    <div id="id" class="mid container">
+        <h1>ID</h1>
+        <table>
+            <tr>
+                <td><b>Name:</b><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+            <tr>
+                <td><b>Description:</b><textarea id="description" name="description" style="width:100%;height:80px"></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div id="aspects" class="mid container">
+        <h1>Aspects</h1>
+        <table>
+            <tr>
+                <td><b>High Concept:</b><input type="text" id="high-concept" name="high-concept" style="width:100%"></td>
+            </tr>
+            <tr>
+                <td><b>Trouble:</b><input type="text" id="trouble" name="trouble" style="width:100%"></td>
+            </tr>
+            <tr>
+                <td><b>1:</b><input type="text" id="aspect1" name="aspect1" style="width:100%"></td>
+            </tr>
+            <tr>
+                <td><b>2:</b><input type="text" id="aspect2" name="aspect2" style="width:100%"></td>
+            </tr>
+            <tr>
+                <td><b>3:</b><input type="text" id="aspect3" name="aspect3" style="width:100%"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="skills" class="mid container">
+        <h1>Skills</h1>
+        <table>
+            <tr>
+                <th style="width:25px"><b>+5</b></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+            <tr>
+                <th style="width:25px"><b>+4</b></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+            <tr>
+                <th style="width:25px"><b>+3</b></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+            <tr>
+                <th style="width:25px"><b>+2</b></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+            <tr>
+                <th style="width:25px"><b>+1</b></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+                <td style="width:50px;padding-right:10px"><input type="text" id="name" name="name" style="width:100%"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="extras" class="mid container">
+        <h1>Extras</h1>
+        <table>
+            <tr>
+                <td><b>Extras:</b><textarea id="extras" name="extras" style="width:100%;height:80px"></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div id="stunts" class="mid container">
+        <h1>Stunts</h1>
+        <table>
+            <tr>
+                <td><b>Stunts:</b><textarea id="stunts" name="stunts" style="width:100%;height:80px"></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div id="stress" class="mid container">
+        <h1>Stress</h1>
+        <table>
+            <tr>
+                <th style="width:50px">Physical Stress</th>
+                <td style="width:50px"><input type="checkbox">1</td>
+                <td style="width:50px"><input type="checkbox">2</td>
+                <td style="width:50px"><input type="checkbox">3</td>
+                <td style="width:50px"><input type="checkbox">4</td>
+            </tr>
+            <tr>
+                <th style="width:50px">Mental Stress</th>
+                <td style="width:50px"><input type="checkbox">1</td>
+                <td style="width:50px"><input type="checkbox">2</td>
+                <td style="width:50px"><input type="checkbox">3</td>
+                <td style="width:50px"><input type="checkbox">4</td>
+            </tr>
+        </table>
+    </div>
+    <div id="consequences" class="mid container">
+        <h1>Consequences</h1>
+        <table>
+            <tr>
+                <td style="width:50px"><input type="checkbox">minor</td>
+                <td style="width:50px"><input type="checkbox">minor backup</td>
+            </tr>
+            <tr>
+                <td style="width:50px"><input type="checkbox">mild</td>
+                <td style="width:50px"><input type="checkbox">severe</td>
+            </tr>
+        </table>
+    </div>
+</body>
